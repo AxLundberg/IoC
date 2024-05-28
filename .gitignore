@@ -1,0 +1,53 @@
+# .gitignore for C++ projects and Visual Studio
+
+# Compiled object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Visual Studio files
+.vscode/
+.vs/
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.idea/
+*.sln
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+Makefile
+
+# Logs
+*.log
+
+# Others
+build/
+dist/
